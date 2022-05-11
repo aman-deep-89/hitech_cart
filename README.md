@@ -54,3 +54,12 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
+
+## Installation instructions
+
+clone the repository with following command 
+1. git clone https://github.com/aman-deep-89/hitech_cart.git
+2. Import the hitech_cart.sql to phpmyadmin
+3. Change database settings in .env file 
+4. Use composer require myth/auth to install authentication library
+5. Run php spark
