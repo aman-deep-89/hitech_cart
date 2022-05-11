@@ -1,0 +1,37 @@
+body { margin:0; padding:0; position:relative; font-family:sans-serif;}
+table { width:100%; border-collapse:collapse;}
+table tr td { min-height:25px; }
+.head_row { background:#01346a; color:#FFF; }
+.head_row th { text-align:left; height:50px; color:#FFF; }
+.last { font-weight:bold; border-bottom:1px solid #000; height:35px; }
+.line_over td { border-top:1px solid #000;}
+table tr.data td { border-bottom:1px dashed #C5C5C5; }
+#receipt tr td { border:1px dotted #C5C5C5; }
+#receipt thead tr th{ background-color:#006ea8;color:#FFF; }
+#receipt tbody { border:1px solid #006ea8; border-radius:30px; }
+#receipt tbody tr td,#receipt thead tr th,#receipt tfoot tr th{ font-size:14px;}
+.wrapper { width:100%; margin:auto;  font-size:12px; }
+.row_start { margin:1em; }
+.row_start:after,.row_start2:after { content:""; display:block; clear:both; }
+.colm-1 { width:50%; float:left; }
+.colm-2,.colm-3 { width:25%; float:left; }
+.rounded { border:1px solid #01346a; border-radius:30px !important; padding-bottom:2em; box-shadow:4px 4px 1px #01346a;}
+.seperator { border-bottom:1px solid #909495; }
+.summary { width:85%; margin:auto; border:1px solid #01346a;background-color:#FFF; border-radius:25px; font-size:12px;}
+.sep_right { border-right:1px solid #909495;  }
+.s_col_1 { width:12%; float:left; padding:0.7em; }
+.s_col_2 {  width:35%; float:left; }
+.s_col_6 { width:50%; float:left; padding-bottom:5em; border-right:1px solid #909495; }
+.s_col_3 { width:24.59%; float:left; text-align:right;}
+.col_height { min-height:150px; }
+tr.advance td { color:green; }
+#bank_detail { margin-top:2pt;margin-bottom:10pt;  }
+#bank_detail th { text-align:left; }
+#passbook { width:100%; margin:auto;border:1px dotted #2d0e55; }
+#passbook  .col-1,#passbook .col-2 ,#passbook .col-3, #passbook .col-4 { box-sizing:border-box;  padding:3pt; font-size:0.8em; line-height:2; border-collapse:collapse; display:table-cell; }
+#passbook .row_start2 { display:table; align-content:center; border-bottom:1px dotted #2d0e55; }
+#passbook .col-1 { width:12%; float:left; }
+#passbook .col-2 { width:46%; float:left; }
+#passbook .col-3 { width:12%; float:left; }
+#passbook .col-4 { width:12%; float:left; }
+#passbook .col-5 { width:55%; float:left; }
