@@ -1,4 +1,4 @@
-# CodeIgniter 4 Framework
+# Shopping cart with CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
 
@@ -14,15 +14,7 @@ More information about the plans for version 4 can be found in [the announcement
 The user guide corresponding to this version of the framework can be found
 [here](https://codeigniter4.github.io/userguide/).
 
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+**This cart stores the cart state on User browser with the help of Local DB, which reduces the number of requests made  to server. All data is stored on browser Database. After user clicks checkout it is saved in the database. User can register and check the status of his past orders
 
 **Please** read the user guide for a better explanation of how CI4 works!
 
@@ -61,5 +53,5 @@ clone the repository with following command
 1. git clone https://github.com/aman-deep-89/hitech_cart.git
 2. Import the hitech_cart.sql to phpmyadmin
 3. Change database settings in .env file 
-4. Use composer require myth/auth to install authentication library
+4. Use composer require myth/auth to install authentication library. (no need to follow this step as I have changed some login files to match the front end design)
 5. Run php spark
